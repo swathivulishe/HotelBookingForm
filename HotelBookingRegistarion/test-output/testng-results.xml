@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33975" started-at="2018-05-08T12:53:38Z" finished-at="2018-05-08T12:54:12Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="33975" started-at="2018-05-08T12:53:38Z" finished-at="2018-05-08T12:54:12Z">
+      <class name="MainPrgm.Base">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:MainPrgm.Base@6093dd95]" name="openbrowser" is-config="true" duration-ms="9961" started-at="2018-05-08T13:53:38Z" finished-at="2018-05-08T13:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:MainPrgm.Base@6093dd95]" name="closebrowser" is-config="true" duration-ms="17203" started-at="2018-05-08T13:53:55Z" finished-at="2018-05-08T13:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- MainPrgm.Base -->
+      <class name="TestScripts.Booking">
+        <test-method status="PASS" signature="saveHotelReservationForm()[pri:0, instance:TestScripts.Booking@5622fdf]" name="saveHotelReservationForm" duration-ms="6650" started-at="2018-05-08T13:53:48Z" finished-at="2018-05-08T13:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveHotelReservationForm -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScripts.Booking@5622fdf]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-05-08T13:53:55Z" finished-at="2018-05-08T13:53:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveHotelReservationForm status=SUCCESS method=Booking.saveHotelReservationForm()[pri:0, instance:TestScripts.Booking@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="DeleteHotelReservationForm()[pri:1, instance:TestScripts.Booking@5622fdf]" name="DeleteHotelReservationForm" duration-ms="146" started-at="2018-05-08T13:53:55Z" finished-at="2018-05-08T13:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteHotelReservationForm -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScripts.Booking@5622fdf]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-08T13:53:55Z" finished-at="2018-05-08T13:53:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteHotelReservationForm status=SUCCESS method=Booking.DeleteHotelReservationForm()[pri:1, instance:TestScripts.Booking@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScripts.Booking -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

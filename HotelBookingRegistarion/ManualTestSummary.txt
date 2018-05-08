@@ -1,0 +1,42 @@
+                                   HOTEL BOOKING FORM
+                                   -----------------------
+                                   
+                                   
+        . Hotel Booking  form allows us to book the hotel on  available days     
+         which allows us to  book the hotel ,delete/cancel  already  booked hotel, 
+         for booking the hotel   we need fill the  mandatory fields on the form e.g
+         1)First name >> should accept only alphabets(A-Z) 
+         2)Surname    >> should accept only alphabets(A-Z) 
+         3)Price      >> should accept numerics
+         4)Deposit 	  >> boolean select true/false 
+         5)Check-in   >> should select any from today's date 
+         6)Check-out  >> should select date after check-in date 
+         7)Save       >> should click on save button to save the booking successfully 
+         all the above fields are mandatory need to fill all for successful booking.
+         
+       .  we can delete the booking by clicking on delete button and make sure booked user is deleted from the list  .
+        
+       .  Negative testing  by validating the fields
+         
+         e.g 1)validate by entering  numbers,special characters in First name ,surname and make sure booking is not successful
+             2)validate by entering  alphabets and special characters in price field and make sure booking is not successful
+             3)select check-in date as before current date and check-out date  as before check -in date .
+             4)validate  price fields by entering  different inputs e.g 75.55,65.7777,786,6843,  -99,-999 etc 
+            
+            
+             . Refresh the page while filling the form and see page is loaded with frsh page with no previous details .
+             . Click Back button on the page while filling the form .
+             . Save and Delete the form on different browsers and make sure form is submitted/Deleted successfully 
+             
+             
+             
+                          
+             
+             
+         
+         
+         
+          
+         
+         
+                           
